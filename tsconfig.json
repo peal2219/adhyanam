@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "target": "ES6",
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/RootLayout.jsx", "app/HomePage.jsx", "course/[id]/CoursePage.jsx", "courses/CoursesPage.jsx", "hackathon/[slug]/HackathonPage.jsx", "hooks/useIsMobile.jsx", "hooks/use-toast.js", "language/[slug]/LanguagePage.jsx", "lib/cn.js", "cn.js", "use-toast.js", "useIsMobile.jsx", "ThemeProvider.jsx", "tailwind.config.js", "Navbar.jsx", "ui/Accordion.jsx", "ui/AlertDailog.jsx", "ui/Alert.jsx", "ui/AspectRatio.jsx", "ui/Avatar.jsx", "ui/Badge.jsx", "ui/Breadcrumb.jsx", "ui/ButtonProps.jsx", "ui/Calendar.jsx", "ui/CardHeader.jsx", "ui/Carousel.jsx", "ui/Chart.jsx", "ui/Checkbox.jsx", "ui/Collapsible.jsx", "ui/Command.jsx", "ui/ContextMenu.jsx", "ui/Dialog.jsx", "ui/Drawer.jsx", "ui/DropdownMenu.jsx", "ui/Form.jsx", "ui/HoverCard.jsx", "ui/InputOtp.jsx", "ui/Input.jsx", "ui/labelVariants.jsx", "ui/Menubar.jsx", "ui/NavigationMenu.jsx", "ui/Pagination.jsx", "ui/Popover.jsx", "ui/Progress.jsx", "ui/RadioGroup.jsx", "ui/Resizable.jsx", "ui/ScrollArea.jsx", "ui/Select.jsx", "ui/Separator.jsx", "ui/Sheet.jsx", "ui/Sidebar.jsx", "ui/Skeleton.jsx", "ui/Slider.jsx", "ui/Sonner.jsx", "ui/Switch.jsx", "ui/Table.jsx", "ui/Tabs.jsx", "ui/Textarea.jsx", "ui/Toast.jsx", "ui/Toaster.jsx", "ui/ToggleGroup.jsx", "ui/Toggle.jsx", "ui/Tooltip.jsx", "ui/useIsMobile.jsx", "ui/use-toast.js"],
+  "exclude": ["node_modules"]
+}
